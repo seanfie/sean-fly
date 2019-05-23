@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信</title>
+    <link href=css/iconfont.css rel="stylesheet">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /*html body .iconfont{*/
+            /*font-size: 37px;*/
+        /*}*/
+        .all{
+            width: 980px;
+            height:1740px;
+            background-color:#F5F5F5;
+        }
+        .A,.C,.D{
+            background-color: #EDEDED;
+        }
+        .A{
+            height: 50px;
+            /*border: solid 1px black;*/
+            line-height: 50px;
+            text-align: right;
+        }
+        .a1{
+            font-size: 37px;
+            padding: 2px;
+        }
+        .B{
+            height: 100px;
+            /*border: black solid 1px;*/
+        }
+        .b1{
+
+            font-weight: bold;
+            font-size: 39px;
+            margin-top: 30px;
+            margin-left: 35px;
+            float: left;
+        }
+        .b11{
+            font-size: 65px;
+            padding-right: 50px;
+        }
+        .b2 img{
+            width: 75px;
+            height: 70px;
+            padding-right: 50px;
+            padding-top: 5px;
+        }
+        .b2{
+            float:right;
+            padding-top: 10px;
+        }
+        .C{
+            height: 1483px;
+            /*border: 1px solid black;*/
+            background-color:#FFFFFF;
+            display: flex;
+            /*弹性盒子*/
+            /*align-content: space-around;*/
+            /*overflow: auto;*/
+            /*滑动 x上下y左右*/
+            overflow-y:scroll;
+
+        }
+         .c1{
+             width: 980px;
+         }
+         .c2{
+             height: 185px;
+             /*border: black 1px  solid;*/
+
+         }
+         .c2 img{
+             width: 135px;
+             height: 135px;
+             margin-top:22px;
+             margin-left: 20px;
+         }
+         .c21{
+             width:200px;
+             height:185px;
+         }
+         .c22{
+             width:660px;
+             height:181px;
+             border-top:1px solid #c3c3c3;
+        }
+         .c22 div{
+              padding-top:50px;
+         }
+         .c23{
+             width:116px;
+             height:181px;
+             border-top:1px solid #c3c3c3;
+
+         }
+         li div{
+              float: left;
+
+         }
+         .c221{
+             font-weight: 500;
+             font-size: 40px;
+         }
+         .c222{
+             width: 580px;
+             font-weight:200;
+             font-size: 27px;
+             padding-top: 5px;
+             white-space:nowrap;
+             overflow: hidden;
+             text-overflow: ellipsis ;
+
+         }
+         .c223{
+             font-weight:200;
+             font-size: 27px;
+             padding-top: 30px;
+         }
+        .D{
+            height: 100px;
+            /*border: 1px solid black;*/
+        }
+        .D div{
+            float: left;
+            /*border: black 1px solid;*/
+            text-align: center;
+        }
+        .d1{
+            width: 242px;
+            height: 100px;
+            margin: auto;
+
+        }
+        .d11{
+            font-size: 63px;
+
+        }
+        .d12{
+            font-weight:500;
+            font-size: 23px;
+        }
+         p:hover{
+             color: green;
+         }
+        .WL1{
+            height: 600px;
+            width:350px;
+            top: 170px;
+            right: 20px;
+            position: fixed;
+            display: none;
+            background-color: #505050;
+            border-radius: 25px;
+        }
+        .b2 img:hover+.WL1{
+            display: block;
+
+        }
+        .wl1{
+            height: 600px;
+            width:350px;
+        }
+        .wl2{
+            height: 115px;
+            width:350px;
+        }
+        .wl2 div{
+            float: left;
+            height: 100px;
+        }
+        .wl2 img{
+            width: 65px;
+            height: 60px;
+            padding-top: 40px;
+            padding-left: 45px;
+            margin-top: 5px;
+
+        }
+
+        .wl11 p{
+            font-size: 35px;
+            color: white;
+            padding-top: 45px;
+            border-top: #aaaaaa 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div class="all">
+    <div class="A">
+        <span class="iconfont a1">&#xe614;</span>
+        <span class="iconfont a1">&#xe600;</span>
+        <span class="iconfont a1">&#xeb07;</span>
+        <span class="iconfont a1">&#xe631;</span>
+        <span class="iconfont a1">14:20</span>
+    </div>
+    <div class="B">
+        <div class="b1" >微信(2)</div>
+        <div class="b2" >
+            <span class="iconfont b11">&#xe611;</span>
+            <img src="img-weixin/tj.jpg">
+            <div class="WL1">
+                <ol class="wl1">
+                    <li class="wl2">
+                        <div><img src="img-weixin/w1.jpg"></div>
+                        <div class="wl11">
+                            <p>发起群聊</p>
+                        </div>
+                    </li>
+                    <li class="wl2">
+                        <div><img src="img-weixin/w2.jpg"></div>
+                        <div class="wl11">
+                            <p>添加朋友</p>
+                        </div>
+                    </li>
+                    <li class="wl2">
+                        <div><img src="img-weixin/w3.jpg"></div>
+                        <div class="wl11">
+                            <p>扫一扫</p>
+                        </div>
+                    </li>
+                    <li class="wl2">
+                        <div><img src="img-weixin/w4.jpg"></div>
+                        <div class="wl11">
+                            <p>收付款</p>
+                        </div>
+                    </li>
+                    <li class="wl2">
+                        <div><img src="img-weixin/w5.jpg"></div>
+                        <div class="wl11">
+                            <p>帮助与反馈</p>
+                        </div>
+                    </li>
+                    <!--<li>-->
+                        <!--<div><img src="img-weixin/w4.jpg"></div>-->
+                        <!--<div>-->
+                            <!--<p>收付款</p>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<div><img src="img-weixin/w5.jpg"></div>-->
+                        <!--<div>-->
+                            <!--<p>帮助与反馈</p>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="C">
+        <ul class="c1">
+            <li class="c2">
+                <div class="c21">
+                       <img src="img-weixin/xw.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">腾讯新闻</p>
+                        <p class="c222">动人一慕！他向总书记敬上特殊军礼</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">15:26</p>
+                </div>
+            </li>
+            <li  class="c2">
+                <div class="c21">
+                     <img src="img-weixin/qun.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">17劳动关系JAVA班</p>
+                        <p class="c222">安丽娟：好的</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">21:56</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/dyh.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">订阅号</p>
+                        <p class="c222">【夜听】愿往后的日子里，只做最喜欢的自己：你为什么过得不快乐？</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">22:00</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/zf.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">微信支付</p>
+                        <p class="c222">微信支付凭证</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2" >
+                <div class="c21">
+                    <img src="img-weixin/wjcs.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">文件传输助手</p>
+                        <p class="c222">[图片]</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li  class="c2">
+                <div class="c21">
+                    <img src="img-weixin/qun.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">我们一家</p>
+                        <p class="c222">莎莎：[动画表情]</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/xh.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">肖惠</p>
+                        <p class="c222">朱茵说:无论你碰见的那段爱是怎样,都要对得起自己,要奋不顾身地爱一次,跌到满身都是血 骨头都碎了 都没关系 因为这样才能置之死地而后生 </p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/gcs.png">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">菲菲</p>
+                        <p class="c222">[视频通话]</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <!--以下超出部分-->
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/l1.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">悲喜自渡</p>
+                        <p class="c222">少年呀！你一步一步的往前走，慢慢欣赏世界的美。心呐，留在世界上最黑暗阴冷的地方，让那里上升1度，也算少年你呀</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/l2.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">黑马</p>
+                        <p class="c222">到了许多人都在为自己的成长而跨出那一步， 而我却迟迟在那一步之间徘徊着。 是为自己的懒惰而等待吗</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/l3.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">金辉</p>
+                        <p class="c222">我喜欢你的眼睛 像一面镜子 我做了什么就能看到什么 但更多的是黑夜里的闪烁</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+            <li class="c2">
+                <div class="c21">
+                    <img src="img-weixin/l4.jpg">
+                </div>
+                <div class="c22">
+                    <div>
+                        <p class="c221">麦子</p>
+                        <p class="c222">[视频通话]</p>
+                    </div>
+                </div>
+                <div class="c23">
+                    <p class="c223">昨天</p>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="D">
+        <div class="d1">
+
+            <span class="iconfont d11">&#xe62d;</span>
+           <p class="d12">微信</p>
+        </div>
+        <div class="d1">
+            <a onclick="window.location.href='weixin-2.html'">
+            <span class="iconfont d11">&#xe655;</span>
+            <p class="d12">通讯录</p>
+            </a>
+        </div>
+        <div class="d1">
+            <a onclick="window.location.href='weixin-3.html'">
+            <span class="iconfont d11">&#xe629;</span>
+            <p class="d12">发现</p>
+            </a>
+        </div>
+        <div class="d1" >
+            <a onclick="window.location.href='weixin-4.html'">
+            <span class="iconfont d11">&#xe613;</span>
+            <p class="d12">我</p>
+            </a>>
+        </div>
+    </div>
+</div>
+</body>
+</html>
